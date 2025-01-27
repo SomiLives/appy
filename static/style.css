@@ -1,0 +1,121 @@
+/* General Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1e1e2f;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ChatGPT-inspired container */
+.chat-container {
+    background: #2b2b3c;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 90%;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Title Styling */
+.chat-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Recorder Section */
+.recorder-section {
+    margin-bottom: 30px;
+}
+
+.audio-control {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Chat input area */
+.chat-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.chat-input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    background: #1e1e2f;
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+}
+
+.chat-input::placeholder {
+    color: #a0a0b3;
+}
+
+/* Buttons */
+.btn {
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* Primary Button */
+.primary-btn {
+    background-color: #10a37f;
+    color: #ffffff;
+}
+
+.primary-btn:hover {
+    background-color: #0c8c6c;
+}
+
+/* Secondary Button */
+.secondary-btn {
+    background-color: #444;
+    color: #ffffff;
+}
+
+.secondary-btn:hover {
+    background-color: #555;
+}
+
+/* AI Response */
+.response-box {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #3a3a4f;
+}
+
+.chat-response {
+    font-size: 1.1rem;
+    color: #dcdcff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .chat-container {
+        padding: 20px;
+    }
+
+    .chat-input {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+}
